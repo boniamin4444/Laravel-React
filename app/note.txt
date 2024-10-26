@@ -1,0 +1,22 @@
+* laravel a react add korar jonnno U/I install korte hobe == composer require laravcel/ui
+* arpor ui ta ki dea kaj korbo seta bolte hobe == php artisan ui react
+* arpor authectication install korte hobe == php artisan ui react --auth
+* arpor npm install korte hobe == npm install
+* arpor run korte hobe, atar maddhome ui ta run hoy , mane sass css install and add kore auto vabe  == npm run dev
+* npm run watch -> ata diya akoi sath akbare react project run koraia rakha jay , bar bar run dev commad debar dorkar hoyna 
+* react a jokhon reload dea result ante hoy , setake live krar jonno == npm install --save-dev browser-sync browser-sync-webpack-plugin
+*arpor hot reload korte hobe , ar jonno web mix ar modde = .options({
+    processCssUrls:false,
+});
+
+if(!mix.inProduction())
+{
+    mix.browserSync('localhost:8000);
+}
+
+
+*arpor likhte hobe == npm run hot
+
+
+* live server a host korar age akta comman diya nite hobe == npm run inProduction
+
